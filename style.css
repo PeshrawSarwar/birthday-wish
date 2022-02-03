@@ -94,5 +94,50 @@ h4 {
     }
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* CSS */
+    body {
+        text-align: center !important;
+        text-justify: inter-word !important;
+        ;
+    }
+    h2 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Source Sans Pro";
+        font-size: 30px !important;
+        font-weight: 900;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    h3 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Source Sans Pro";
+        font-size: 25px !important;
+        font-weight: 900;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    h4 {
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Source Sans Pro";
+        font-size: 20px !important;
+        font-weight: 900;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+}
+
 
 /* gift */
